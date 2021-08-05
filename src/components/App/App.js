@@ -2,7 +2,6 @@ import React from 'react';
 import styles from './App.scss';
 import List from '../List/List';
 import {pageContents, listData} from '../../data/dataStore';
-import Creator from '../Creator/Creator';
 
 class App extends React.Component {
 
@@ -13,7 +12,7 @@ class App extends React.Component {
         <h2 className={styles.subtitle}>{pageContents.subtitle}</h2>
         <List {...listData} />
       </main>
-    )
+    );
   }
 }
 
