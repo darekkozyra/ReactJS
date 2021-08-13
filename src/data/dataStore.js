@@ -1,6 +1,12 @@
 export const settings = {
   columnCreatorText: 'Add new column',
   cardCreatorText: 'Add new card',
+  headerIcon: 'dog',
+  navLinksHeaders: {
+    home: 'Home',
+    faq: 'FAQ',
+    info: 'Info',
+  },
   creator: {
     buttonOK: 'OK',
     buttonCancel: 'Cancel',
@@ -17,6 +23,13 @@ export const settings = {
 export const pageContents = {
   title: 'My first React app',
   subtitle: 'A simple to-do app, with lists, columns and cards',
+  FAQ:{
+    textFAQ: 'Many of your questions are answered here. If you cannot find the answer to your problem or would like to discuss your questions for a specific application or issue in more detail, please contact us.',
+  },
+  info:{
+    title: 'Info page',
+    textInfo: 'General information about visited web page. This is single page application with React Routing.',
+  },
 };
 
 export const listData = {
